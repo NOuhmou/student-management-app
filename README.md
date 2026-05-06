@@ -38,10 +38,10 @@ cd student-management-app
 ````
 2. **Créer la base de données MySQL**
 ```bash
-CREATE DATABASE db_crud;
+CREATE DATABASE db_crud
 ````
 
-3. **Configurer l'accès MySQL **
+3. **Configurer l'accès MySQL**
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/db_crud
 spring.datasource.username=root
@@ -53,9 +53,10 @@ spring.datasource.password=
 ````
 5. **Accéder à l'application**
 ```bash
-Ouvrez votre navigateur à l'adresse : http://localhost:8080/students
+Ouvrez votre navigateur à url : http://localhost:8080/students
 ````
-6. ** Structure du projet**
+6. **Structure du projet**
+```bash
 student-management-app/
 ├── src/main/java/com/app/web/
 │   ├── controller/      # Contrôleurs Spring MVC
@@ -66,5 +67,5 @@ student-management-app/
 │   ├── templates/       # Vues HTML (Thymeleaf)
 │   └── application.properties
 └── pom.xml
-7. ** Aperçu**
+````
 
